@@ -7,6 +7,8 @@
 // }
 
 
+
+
 // #include<stdio.h>
 /*
 int main()
@@ -16,6 +18,10 @@ int main()
 }
 %d, %f, %c, %s, %lf, Lf, li (prifix for data type for print)
 */
+
+
+
+
 #include<stdio.h>
 int main()
 {

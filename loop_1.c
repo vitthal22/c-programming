@@ -83,7 +83,7 @@ int main()
     // }
 
 
-    
+
 
     // for (char i = 'A'; i <='Z'; i++)
     // {
@@ -196,23 +196,6 @@ int main()
 
 
 
-    // int num;
-    // printf("enter num");
-    // scanf("%d",&num);
-    // if (num ==0)return 0;
-    // int i = 1;
-    // int sum = 1;
-    // while(i<=num)
-    // {
-    //     sum = sum + i;
-    //     i++;
-    // }
-    // printf("%d\n",sum);
-
-
-
-
-
      /*
      Do-while
      syntax
@@ -235,24 +218,7 @@ int main()
 
 
     
-    // int n1, n2;
-    // printf("enter n1: ");
-    // scanf("%d", &n1);
-    // printf("enter n2 ");
-    // scanf("%d", &n2);
-    // int flage = 1;
-    // int a = n1 +n2;
-    // do{
-    //     printf("sum is %d\n", a);
-    //     printf("do you want to perform mor opertion: Y||N:");
-    //     char choice;
-    //     scanf(" %c", &choice);
-    //     if(choice == 'N')
-    //     {
-    //         flage = 0;
-    //     }
-    // }
-    // while (flage==1);
+
     
 
 

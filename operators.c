@@ -16,6 +16,10 @@ int main()
     7. ternary operator
     */
 
+
+
+
+
    //Arithmetic
 //    int n1=10;
 //    int n2=2;
@@ -25,6 +29,10 @@ int main()
 //    printf("Q:%d\n", (n1/n2));
 //    printf("R:%d\n", (n1%n2));
 //    return 0;
+
+
+
+
       
       //Relational
     //   int n1 = 10;  (we can change value according to the cases to check in both the integer).
@@ -37,12 +45,21 @@ int main()
     //    printf("n1>=n2:%d\n", (n1>=n2));
     //   return 0;
 
+
+
+
+
     //logical op
     //    int n1 = 10;
     //    int n2 = 20;
     //    printf("%d\n", ((n1==10) && (n2>50)));
     //    printf("%d\n", ((n1==100) || (n2>50)));
     //    printf("%d\n", !(n1==10));
+
+
+
+
+
 
     //Assigment
         // int a = 10;
@@ -56,6 +73,10 @@ int main()
         // b*= 10;
         // printf("%d\n", b);
     
+
+
+
+
     //Bitwise
         // int a = 5;
         // int b = 7;
@@ -84,6 +105,10 @@ int main()
                 --------------------------
         */
         
+
+
+
+
         // unery
         //1. increment
         // int a =10;
@@ -97,11 +122,17 @@ int main()
         // printf("%d\n", --a);  //(pre decrement)
         // printf("%d\n", a);
 
+
+
+
+
         //ternary
         //(condition)?(exp1):(exp2);
 
         // int age = 18;  (if we take other age that is not fulfilling the condition then the output will be exp2)
         // (age == 18)?(printf("age is 18")):(printf("age is not 18")); //ternary operator
+
+
 
         //sizeof()
         // int a = 10;
