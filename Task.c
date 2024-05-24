@@ -51,13 +51,14 @@ int main() {
    
    for (int i = 2; i <= num; i++)
    {
-    while (num%i==0)
+    while (num % i==0)
     {
-        /* code */
+        printf("%d\n", i);
+        num /= i;
     }
     
    }
-   printf("%d\n", num);
+   
    
    
 
