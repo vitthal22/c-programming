@@ -107,3 +107,119 @@
 //     return 0;
 // }
 
+// 4. Find the maximum of two numbers and display it.
+//    [Use if-else. Also write the code using conditional operator]
+
+// #include<stdio.h>
+// int main()
+// {
+//     int n1, n2, max;
+//     printf("Enter 2 num: ");
+//     scanf("%d %d", &n1, &n2);
+
+//     if(n1>n2)
+//     {
+//         max = n1;
+//     }
+//     else 
+//     {
+//         max = n2;
+//     }
+//     printf("Maximum numbers is: %d\n", max);
+//     return 0;
+// }
+
+
+
+// #include<stdio.h>
+// int main()
+// {
+//     int n1, n2, max;
+//     printf("Enter 2 num: ");
+//     scanf("%d %d", &n1, &n2);
+
+//     max = (n1>n2)?(max = n1):(max = n2);
+//     printf("max no.: %d\n", max);
+//     return 0;
+// }
+
+// A teacher provides his student with a number and a key digit.
+//  He wants student to find out many times the key digit occurs in the number. 
+// Help the student by writing a program.
+
+
+// #include<stdio.h>
+// int main()
+// {
+//     char result[10];
+//     int num;
+//     printf("Enter a number: ");
+//     scanf("%d", &num);
+//     int digit;
+//     printf("enter digit: ");
+//     scanf("%d", &digit);
+//     sprintf(result, "%d", num);
+//     //printf("%c\n", result[0]);
+//     int count = 0;
+//     //printf("%d\n", sizeof(result));
+//     for (int i = 0; i < sizeof(result); i++)
+//     {
+//         printf("i=%d digit= %d  result[i]= %d\n", i, digit+'0', result[i]);
+//         if (result[i] == digit+'0')
+//         {
+//             count++;
+            
+//         }
+//     }
+//     printf("%d\n", count);
+
+
+
+//     return 0;
+// }
+    
+
+// #include<stdio.h>
+// int main()
+// {
+//     int num, sum= 0;
+//     printf("Enter a number: ");
+//     scanf("%d", &num);
+
+//     while (num>0)
+//     {
+//         sum += num%10;
+//         num/= 10;
+//     }
+//     //printf("%d\n", sum);
+//     if (sum%3==0&&sum%5==0)
+//     {
+//         printf("Divisible by 3 and 5\n");
+//     }
+
+//     for (int i = 1000; i < 9999; i++)
+//     {
+        
+//     }
+    
+    
+    
+
+//     return 0;
+// }
+
+
+
+
+    
+    
+
+
+
+ 
+
+
+
+
+
+

@@ -78,17 +78,86 @@ int main() {
 
 // find the no.in given range which is only divisible by 5 but not 3
 
-    int num;
-    printf("enter num: ");
-    scanf("%d", &num);
+    // int num;
+    // printf("enter num: ");
+    // scanf("%d", &num);
 
-    for (int i = 0; i < num; i++)
-    {
-        if (i % 5 == 0 && i % 3 != 0)
-        {
-            printf("%d\n", i);
-        }
-    }
+    // for (int i = 0; i < num; i++)
+    // {
+    //     if (i % 5 == 0 && i % 3 != 0)
+    //     {
+    //         printf("%d\n", i);
+    //     }
+    // }
+
+
+
+    //reverse loop
+    // syntax
+    // for(int =5; i>=1; i--)
+    //{
+    //    printf("%d ",i);[5,4,3,2,1]
+    // }
+
+    // for (int i = 5; i >= 1; i--)
+    // {
+    //     printf("%d\n",i);
+    // }
+
+
+
+    //4545 count digit
+
+    // int num;
+    // printf("Enter a number: ");
+    // scanf("%d", &num);
+    // int counter = 0;
+    // while (num!=0)
+    // {
+    //     num /= 10;
+    //     counter++;
+    // }
+    // printf("%d\n", counter);
+
+
+
+    //5 print if the no. is prime is not
+
+    // int num;
+    // printf("Enter a number: ");
+    // scanf("%d", &num);
+    // int flag = 1;
+    // for (int i = 2; i < num; i++)
+    // {
+    //     if(num%i==0)
+    //     {
+    //         flag = 0;
+    //         break;
+    //     }
+    // }
+    // if (flag)
+    // {
+    //     printf("prime\n");
+    // }
+    // else
+    // {
+    //     printf("not a prime number\n");
+    // }
+    
+    //0 1 1 2 3 5 print this series in which the addition of previous 2
+
+    // int n1 = 0;
+    // int n2 = 1;
+    // int n3=0;
+    // printf("0 ");
+    // for (int i = 1; i < 10; i++)
+    // {
+    //     n1=n2;
+    //     n2=n3;
+    //     n3 = n1 + n2;
+    //     printf("%d ", n3);
+        
+    // }
     
    
    
