@@ -160,8 +160,310 @@ int main() {
     // }
     
    
+// 1. take input from user as interger armstrong
+
+    
+    
+
+
+
+
+
+
+// 2. 1 to 100 display prime number
+
+    
+    // for (int i = 1; i <= 100; i++)
+    // {
+    //     int flag = 1;
+    //     for (int j = 2; j < i; j++)
+    //     {
+            
+    //         if (i%j==0)
+    //         {
+    //             flag =0;
+    //             break;
+    //         }
+    //     }
+    //     if (flag)
+    //     {
+    //         printf("%d ", i);
+    //     }
+    // }
+
+    
+// 3. 2 to 10 table
+
+
+
+
+
+
+// 4. a = 1, b = 10
+//  output : 1+2+3+4+5+6+7+8+9+10 =55
+
+    // int a = 1;
+    // int b = 10;
+    // int store =0;
+    // for (int i = a; i <= b; i++)
+    // {
+    //     if (i!=b) printf("%d + ", i);
+    //     else printf("%d ", i);
+        
+    //     store += i;
+    //     // printf("%d + %d", i, store);
+    // }
+    // printf(" = %d", store);
+
+
+
+// 5. row = 5
+/*
+*
+**
+***
+****
+*****
+*/
+
+    // int row = 5;
+
+    // for (int i = 1; i <= row; i++)
+    // {
+    //     for (int j = 1; j <= i; j++)
+    //     {
+    //         printf("*");
+    //     }
+    //     printf(" \n");
+    // }
+    
+
+//6. row = 5
+/*
+    *
+   **
+  ***
+ ****
+*****
+*/ 
+    // int rows = 5;
+
+    // for (int i = 1; i <= rows; ++i) 
+    // {
+    //     for (int j = 1; j <= rows - i; ++j)
+    //  {
+    //         printf(" ");
+    //     }
+
+    //     for (int k = 1; k <= i; ++k) {
+    //         printf("*");
+    //     }
+
+    //     printf("\n");
+    // }
+    
+    
+
+//7.
+/*
+*****
+****
+***
+**
+*
+*/
+
+    // int row = 5;
+
+    // for (int i = 0; i < row; i++)
+    // {
+    //     for (int j = 0; j < row - i; j++)
+    //     {
+    //         printf("*");
+    //     }
+    //     printf("\n");
+    // }
+
+
+ //8. 
+ /*
+ *****
+  ****
+   ***
+    **
+     *
+*/
+
+    // int row = 5;
+
+    // for (int i = 0; i < row; i++)
+    // {
+    //     for (int j = 0; j < i; j++)
+    //     {
+    //         printf(" ");
+    //     }
+    //     for (int k = i; k < row; k++)
+    //     {
+    //         printf("*");
+    //     }
+    //     printf("\n");
+    // }
+    
+//9. row = 5
+/*
+     *
+    * *
+   * * *
+  * * * *
+ * * * * *
+*/
+
+    // int row = 5;
+    // for (int i = 0; i < row; i++)
+    // {
+    //     for (int j = 0; j < row-i; j++)
+    //     {
+    //         printf(" ");
+    //     }
+    //     for (int k = 0; k <= i; k++)
+    //     {
+    //         printf(" *");
+    //     }
+    //     printf("\n");
+        
+    // }
+
+// 10. row = 4;
+/*
+****
+****
+****
+****
+*/
+
+    // int row = 4;
+
+    // for (int i = 1; i <= row; i++)
+    // {
+    //     // printf("1\n");
+    //     for (int j = 1; j <= row; j++)
+    //     {
+    //         printf("*");
+    //     }
+    //     printf(" \n");
+    // }
+
+
+// 11. row =4
+/*
+*****
+*   *
+*   *
+*****
+*/
+
+    // int row = 5;
+
+    // for (int i = 0; i < row; i++)
+    // {
+    //     for (int j = 0; j < row; j++)
+    //     {
+    //         if (i==0 || i==row-1 || j==0||j == row-1) 
+    //         {
+    //             printf("*");
+    //         }
+    //         else
+    //         {
+    //             printf(" ");
+    //         }
+    //     }
+    //     printf("\n");
+    // }
    
-   
+    
+    
+// task 1.) Write c program
+// Take character input from user 
+// And check whether it is small letter or capital letters.
+// Display appropriate msg accordingly.
+
+    // char cha;
+    // printf("enter alphabet: ");
+    // scanf("%c", &cha);
+
+    // if (cha>='A' && cha <= 'Z')
+    // {
+    //     printf("letter is capital: %c", cha);
+    // }
+    // else if (cha>= 'a' && cha <= 'z')
+    // {
+    //     printf("letter is small: %c", cha);
+    // }
+    // else printf("invalid");
+
+
+/*
+        1
+       1 1
+      1 2 1
+     1 3 3 1
+    1 4 7 4 1
+*/
+
+
+    // int row = 5;
+
+    // for (int i = 0; i < row; i++)
+    // {
+    //     for (int j = 0; j < row-i; j++)
+    //     {
+    //         printf(" ");
+    //     }
+    //     int num =1;
+    //     for (int k = 0; k <= i; k++)
+    //     {
+    //         printf("%d ", num);
+    //         num = num + (i-k)/(k+1);
+    //     }
+        
+        
+    // printf("\n");
+    // }
+    
+    
+/*
+     *
+    ***
+   *****
+  *******
+ *********
+*/
+    // int row = 5;
+    // for (int i = 0; i < row; i++)
+    // {
+    //     for (int j = 0; j < row-i; j++)
+    //     {
+    //         printf(" ");
+    //     }
+    //     for (int k = 0; k <= i; k++)
+    //     {
+    //         printf("*");
+    //     }
+    //     for(int l=0; l<i ;l++)
+    //     {
+    //         printf("*");
+    //     }
+    //     printf("\n");
+        
+    // }
+
+
+
+    
+    
+
+
+
 
     
 

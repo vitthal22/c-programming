@@ -1,4 +1,5 @@
 #include<stdio.h>
+void number();
 int main()
 {
     int oldresult = 0;
@@ -70,4 +71,13 @@ int main()
     }
     
     return 0;
+}
+
+void number()
+{
+    int x, y;
+    printf("Enter first numbers:");
+    scanf("%d", &x);
+    printf("Enter second numbers:");
+    scanf("%d", &y);  
 }

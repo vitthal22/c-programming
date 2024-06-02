@@ -1,17 +1,18 @@
 #include<stdio.h>
+#include<stdlib.h>
 int main()
 {
 // Nested loop
 
-    for (int i = 2; i <= 5; i++)// outer loop 
-    {
-        for (int j = 1; j <= 10; j++)// inner loop 
-        {
-            printf("%d ", i*j);
+    // for (int i = 2; i <= 5; i++)// outer loop 
+    // {
+    //     for (int j = 1; j <= 10; j++)// inner loop 
+    //     {
+    //         printf("%d ", i*j);
             
-        }
-        printf("\n");
-    }
+    //     }
+    //     printf("\n");
+    // }
     
 
 /*
@@ -50,8 +51,22 @@ int main()
     // }
 
   
-    
+    // Exit function
 
+    /*
+    in exit we completelly terminate the code or rest of the code
+    we use #include<stdlib.h> for exit function
+    */
+    // for (int i = 1; i <= 10; i++)
+    // {
+    //     printf("%d\n", i);
+    //     if (i == 5)
+    //     {
+    //         exit(0);
+    //     }
+    // }
+    // printf("rest of code\n");
+    
 
 
 
