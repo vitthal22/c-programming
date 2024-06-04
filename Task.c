@@ -423,7 +423,7 @@ int main() {
     //     for (int k = 0; k <= i; k++)
     //     {
     //         printf("%d ", num);
-    //         num = num + (i-k)/(k+1);
+    //         num = num * (i-k)/(k+1);
     //     }
         
         
