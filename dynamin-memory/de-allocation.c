@@ -1,12 +1,3 @@
-                    /* Dynamic memory allocation */
-// #include<stdlib.h> 
-
-// 1. malloc
-// 2. calloc
-// 3. re-alloc
-
-// free (for deleting the memory)
-
 #include<stdio.h>
 #include<stdlib.h>
 int main()
@@ -15,17 +6,19 @@ int main()
     int n;
     scanf("%d", &n);
 
-    int *ptr = (int*)malloc(n * sizeof(int));
-
+    int *ptr = (int*)malloc(n*sizeof(int));
     for (int i = 0; i < n; i++)
     {
-        printf("enter marks: ");
+        printf("enter ele:");
         scanf("%d", ptr+i);
     }
+
+    //de-allocation
+    free(ptr);
+
     for (int i = 0; i < n; i++)
     {
         printf("%d\n", *(ptr+i));
     }
-
     return 0;
 }
