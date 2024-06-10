@@ -111,17 +111,40 @@
 //     return 0;
 // }
 
-#include<stdio.h>
-#include<string.h>
-int main()
-{
-    char str[100];
-    printf("enter string: ");
-    gets(str);
+// #include<stdio.h>
+// #include<string.h>
+// int main()
+// {
+//     char str[100];
+//     printf("enter string: ");
+//     gets(str);
 
-    for(int i=0; str[i]!= '\0'; i +=2)
-    {
-        printf("%c", str[i]); 
-    }
-    return 0;
-}
+//     for(int i=0; str[i]!= '\0'; i +=2)
+//     {
+//         printf("%c", str[i]); 
+//     }
+//     return 0;
+// }
+
+
+// #include<stdio.h>
+// #include<string.h>
+// int main()
+// {
+//     char str[100];
+//     printf("enter string: ");
+//     gets(str);
+
+//     char revstr[100];
+//     strcpy(revstr, str);
+//     strrev(revstr);
+
+//     if (strcmp(revstr, str)==0)
+//     {
+//         printf("it is pledrom %s", str);
+//     }
+//     else printf("not a pledrom %s\n", str);
+
+//     return 0;
+// }
+
