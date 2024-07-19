@@ -172,7 +172,7 @@ int main() {
 
 // 2. 1 to 100 display prime number
 
-    
+    // int count = 0;
     // for (int i = 1; i <= 100; i++)
     // {
     //     int flag = 1;
@@ -188,8 +188,10 @@ int main() {
     //     if (flag)
     //     {
     //         printf("%d ", i);
+    //         count++;
     //     }
     // }
+    // printf("\n%d", count);
 
     
 // 3. 2 to 10 table
@@ -458,6 +460,53 @@ int main() {
     // }
 
 
+// print 100 prime no.
+
+    // int count = 0;
+    // int num = 1;
+
+    // while (count<100)
+    // {
+    //     num++;
+    //     int flag = 1;
+    //     for (int i = 2; i < num; i++)
+    //     {
+    //         if (num%i==0)
+    //         {
+    //             flag = 0;
+    //             break;
+    //         }
+    //     }
+    //     if (flag)
+    //     {
+    //         printf("%d ", num);
+    //         count++;
+    //     }
+    // }
+    // printf("\n%d ", count);
+    
+
+    //print 1 to 500 armstrong no.
+
+    int count = 0;
+    int num = 1;
+    while (count<100)
+    {
+        num++;
+        int sum = 0;
+        int temp = num;
+        while (temp>0)
+        {
+            int rem = temp%10;
+            sum += rem*rem*rem;
+            temp = temp/10;
+        }
+        if (sum==num)
+        {
+            printf("%d ", num);
+            count++;
+        }
+    }
 
     
     
